@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Tank</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="grid">
+        <div>
+            <div id="container" class="redcontainer">
+                <div id="redcolor"></div>
+            </div>
+            <div class="tapImage">
+                <img src="water-tap.jpg" class="redtap" id="tapstart1">
+                <div class="redflow"></div>
+            </div>
+        </div>
+        <div>
+            <div id="container" class="yellowcontainer">
+                <div id="yellowcolor"></div>
+            </div>
+            <div class="tapImage">
+                <img src="./water-tap.jpg" class="yellowtap" id="tapstart2">
+                <div class="yellowflow"></div>
+            </div>
+        </div>
+        <div>
+            <div id="container" class="greencontainer">
+                <div id="greencolor"></div>
+            </div>
+            <div class="tapImage">
+                <img src="./water-tap.jpg" class="greentap" id="tapstart3">
+                <div class="greenflow"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bigContainer">
+        <div class="flowWater"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
